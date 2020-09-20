@@ -64,7 +64,7 @@ public class ConnectionHandler extends Thread {
 		}
 		
 		// Create the JFrame
-		JFrame f = new JFrame(Main.userID + ": Not Connected");
+		JFrame f = new JFrame(Main.username + ": Not Connected");
 		if (socket != null) {
 			f.setTitle(Main.userID + ": " + socket.getInetAddress());
 		}
